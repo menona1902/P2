@@ -1,0 +1,28 @@
+body {
+  background-color: #c4c4c4;
+}
+
+.description{
+  font-family: 'Kanit', sans-serif;
+  font-size: 24px;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+a:active {
+  color: black;
+  text-decoration: none;
+}

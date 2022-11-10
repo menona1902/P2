@@ -1,0 +1,67 @@
+a {
+    text-decoration:none;
+    border: none;
+  }
+
+  body {
+    background-color: #c4c4c4;
+  }
+
+  section.galleryContainer {
+    width: 50%;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  section.galleryContainer .galleryCol {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1 auto;
+  }
+  section.galleryContainer .galleryCol .gallContent {
+    width: 25%;
+    margin: auto;
+    padding: 4px;
+    background-color: #efefef;
+    position: relative;
+  }
+  section.galleryContainer .galleryCol .gallContent img{
+    width: 100%;
+    /* height: auto; */
+    display: block;
+    opacity: 1;
+    /* backface-visibility: hidden; */
+    transition: 0.5s;
+  }
+  section.galleryContainer .galleryCol .gallContent:hover img {
+    background-color: #635ca8;
+    opacity: 0.5;
+  }
+  .galleryCol .gallContent .hoverText {
+    display: none;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    /* flex-direction: row; */
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    opacity: 1;
+    z-index: 3;
+    transition: 0.5s;
+  }
+
+  .galleryCol .gallContent:hover .hoverText {
+    display: flex;
+  }
+
+  .hoverText{
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 45px;
+  }

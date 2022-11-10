@@ -1,0 +1,69 @@
+body {
+  background-color: black;
+}
+
+.canvas {
+	width: 100vw;
+	height: 100vh;
+	margin: 0px auto;
+	background: black;
+  text-align: center;
+}
+
+button:hover span {
+  display: none;
+}
+
+button:hover:before {
+  content: "Itaewon Class' final episode recorded a 16.548% nationwide audience share, making it the third-highest viewership rating in JTBC and the tenth highest rated drama in Korean cable television history. The drama was also praised for its realistic portrayal of subjects such as prejudice and discrimination against foreigners, ex-convicts and the LGBT people. Time Magazine included Itaewon Class on its list of 'The 10 Best Korean Dramas to Watch on Netflix' and Forbes included the series on its list of 'The 13 Best Korean Dramas Of 2020'. The Guardian also mentioned the drama in an article recommending Korean dramas to watch after finishing Squid Game. Google Trends revealed that the series was the first most searched drama/entertainment program of 2020 and the fourth most searched domestic term of 2020 in South Korea.";
+  font-family: 'Kanit', sans-serif;
+  font-size: 18px;
+  color: #00FFFF;
+}
+
+.title{
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  font-size: 65px;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: black;
+  border: none;
+  padding: 12px 32px;
+  line-height: 0.25;
+}
+
+.description {
+  font-family: 'Kanit', sans-serif;
+  color: white;
+  font-size: 18px;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+a.link {
+  color: white;
+}
+
+a:hover{
+  color: red;
+}
+
+a:visited{
+  color: white;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-gap: 20px;
+  align-items: stretch;
+  }
+.grid img {
+  border: none;
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  max-width: 100%;
+  height: auto;
+}

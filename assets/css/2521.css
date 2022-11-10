@@ -1,0 +1,69 @@
+body {
+  background-color: black;
+}
+
+.canvas {
+	width: 100vw;
+	height: 100vh;
+	margin: 0px auto;
+	background: black;
+  text-align: center;
+}
+
+button:hover span {
+  display: none;
+}
+
+button:hover:before {
+  content: "During the eight weeks of broadcast, Twenty-Five Twenty-One, Kim Tae-ri and Nam Joo-hyuk maintained the top spots in drama and actors popularity rankings conducted by Good Data Corporation. The series also placed first in viewership ratings for all its 16 episodes, in both the Metropolitan Area and nationwide. The drama's success was attributed to its 'retro-sentimental' vibe that was presented through the use of props, fashion, and locations that were able to invoke nostalgia to the generation that experienced the 1990s. It was also stated that it had succeeded in gaining the empathy and sympathy of viewers as it depicts the struggles of the IMF period in Korea, which viewers connected with the ongoing COVID-19 pandemic.";
+  font-family: 'Kanit', sans-serif;
+  font-size: 18px;
+  color: #00FFFF;
+}
+
+.title{
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  font-size: 65px;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: black;
+  border: none;
+  padding: 12px 32px;
+  line-height: 0.25;
+}
+
+.description {
+  font-family: 'Kanit', sans-serif;
+  color: white;
+  font-size: 18px;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+a.link {
+  color: white;
+}
+
+a:hover{
+  color: red;
+}
+
+a:visited{
+  color: white;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-gap: 20px;
+  align-items: stretch;
+  }
+.grid img {
+  border: none;
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  max-width: 100%;
+  height: auto;
+}

@@ -1,0 +1,69 @@
+body {
+  background-color: black;
+}
+
+.canvas {
+	width: 100vw;
+	height: 100vh;
+	margin: 0px auto;
+	background: black;
+  text-align: center;
+}
+
+button:hover span {
+  display: none;
+}
+
+button:hover:before {
+  content: "According to Nielsen Korea, the series recorded a rating of 11.4% in its last episode. After its release on Netflix, Business Proposal debuted at number 6 on the platform's weekly viewership chart of non-English TV shows in the week of March 7 to 13. The following week it rose to number one, where it stayed for three weeks, recording 32.5 million hours of viewing for the week of March 28 to April 3 alone. It became the first Korean series produced and originally released by a local company to top the chart.";
+  font-family: 'Kanit', sans-serif;
+  font-size: 18px;
+  color: #00FFFF;
+}
+
+.title{
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  font-size: 65px;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: black;
+  border: none;
+  padding: 12px 32px;
+  line-height: 0.25;
+}
+
+.description {
+  font-family: 'Kanit', sans-serif;
+  color: white;
+  font-size: 18px;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+a.link {
+  color: white;
+}
+
+a:hover{
+  color: red;
+}
+
+a:visited{
+  color: white;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-gap: 20px;
+  align-items: stretch;
+  }
+.grid img {
+  border: none;
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  max-width: 100%;
+  height: auto;
+}
